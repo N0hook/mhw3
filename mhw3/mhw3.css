@@ -1,0 +1,253 @@
+:root {
+    --primary-color: rgb(41, 41, 41); 
+  }
+    
+    a 
+    {
+        cursor: pointer;
+    }
+
+    #button {
+
+        padding: 2px;
+        margin-right: 15px;
+        border: 2px ridge rgb(255, 255, 255);
+        border-radius: 100px;
+        background-color: var(--primary-color);
+    }
+
+    #button:hover {
+
+      background-color: whitesmoke;
+      color:rgb(0, 0 , 0);
+      border: 2px solid var(--primary-color);
+
+    }
+
+    #logo {
+
+      margin-left: 7px;
+      font-family: 'Russo One', sans-serif;
+    }
+
+    #logo em {
+
+    font-size: 15px;
+    margin-left: 8px;
+    font-family: 'Kalam', cursive;
+
+    }
+
+    body {
+
+    background-color:rgb(50, 55, 59);
+    color:rgb(210, 213, 216);
+    margin: 0;
+    }
+
+    .details {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    z-index: 1;
+
+    }
+
+
+    .details img {
+
+    width: 40%;
+    height: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+    }
+    
+
+    .details p {
+
+    text-align: center;
+    margin: 7%;
+    padding: 3%;
+    font-family: 'BIZ UDPMincho', serif;
+    font-weight: lighter;
+    font-size: 120%;
+
+    }
+
+    @media (max-width: 400px) {
+      body {
+      font-size: 10px;
+      }
+    }
+    
+
+
+    a.button2 {
+
+      padding: 0.5%;
+      border: 2px ridge whitesmoke;
+      background-color: rgb(50, 55, 59);
+      color:rgb(255, 255, 255);
+      border-radius: 10px;
+      font-family: 'Mukta', sans-serif;
+    }
+
+    a.button2:hover {
+
+      font-size: 130%;
+      color:black;
+      background-color:whitesmoke;
+      border: 2px ridge black;
+
+    }
+
+    input
+    {
+      cursor: pointer;
+      border-radius: 40px;
+      text-align: center;
+      border: 2px solid black;
+      background-color: rgb(50, 55, 59);
+      color: white;
+    }
+
+    /*
+    .visulizza_classifica 
+    {
+      display: flex;
+      align-items: center;
+
+    }
+*/
+
+    footer {
+
+        background-color: rgba(0, 0 , 0 , 0.7);
+        color:rgb(241, 241, 241);
+        text-align: left;
+        padding: 1%;
+        height: 2%;
+        font-family: 'Neuton', serif;
+        }
+
+
+    header {
+
+        color:whitesmoke;
+        background-image: url("album_wall.png");
+        background-size: cover;
+        background-position: center;
+        height: 394px;
+        position: relative;
+        top: 60px;
+        display: flex;
+
+    }
+
+
+    #overlay {
+
+    background-color: rgba(0, 0 , 0 , 0.3);
+
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    height: 100%;
+    width: 100%;
+
+    }
+
+
+    #links a{
+
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    padding: 4px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    }
+
+    header nav {
+
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+
+    height: 60px;
+
+    background-color: rgba(0, 0 , 0 , 0.7);
+
+    font-size: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+
+
+    #Menu {
+
+        display: none;
+
+      }
+      
+
+      #Menu div {
+        width: 25px;
+        height: 3px;
+        background-color: whitesmoke;
+        margin: 6px 10px;
+        padding-right: 7px;
+      }
+
+      @media (max-width: 500px) {
+        #links {
+          display: none;
+        }
+
+        #Menu {
+
+          display: block;
+          cursor: pointer;
+
+        }
+      }
+
+
+      #main {
+
+        text-align: center;
+        color:whitesmoke;
+        font-size: 20px;
+        margin-top: 90px;
+        font-style: oblique;
+        font-family: 'Nanum Gothic', sans-serif;
+        z-index: 1;
+
+
+      }
+
+
+      section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      
+
+
+
+
